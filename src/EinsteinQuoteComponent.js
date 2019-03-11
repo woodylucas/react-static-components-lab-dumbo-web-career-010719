@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export class EinsteinQuoteComponent extends Component {
+export default class EinsteinQuoteComponent extends React.Component {
 	render() {
 		return (
 			<div className="bar" id="einstein">
