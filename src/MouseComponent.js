@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class MouseComponent extends React.Component {
+export default class MouseComponent extends Component {
 
   componentDidMount() {
     require("./hoverEffect.js")
